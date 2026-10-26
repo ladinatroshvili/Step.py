@@ -11,7 +11,4 @@ def analyze_text(text,target_word):
         if word.lower()== target_word.lower():
             target_count +=1
     return word_count,target_count, longest_word
-result=list(analyze_text("Hello0000000 world davaleba N8 davaleba დავალება N8",'davaleba'))
-
-print(result)
-print(result[2])
+print(analyze_text("Hello0000000 world davaleba N8 davaleba დავალება N8",'davaleba'))
